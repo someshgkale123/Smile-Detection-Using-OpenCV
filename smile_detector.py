@@ -26,7 +26,7 @@ def detect(gray, frame):
         for (sx,sy,sw,sh) in smiles:
             cv2.rectangle(r_color,(sx,sy),(sx+sw,sy+sh),(0,0,255),2)
     return frame
-
+#accessing the webcam
 webcam=cv2.VideoCapture(0)
 
 while True:
