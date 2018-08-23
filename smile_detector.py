@@ -6,6 +6,7 @@ Created on Mon Aug 13 17:46:31 2018
 """
 import cv2
 
+#loading cascades
 face_cascade=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade=cv2.CascadeClassifier('haarcascade_eye.xml')
 smile_cascade=cv2.CascadeClassifier('haarcascade_smile.xml')
